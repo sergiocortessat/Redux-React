@@ -6,7 +6,7 @@ function App() {
   const dispatch = useDispatch();
   return (
     <div className="App">
-  Hello, current count is {counter}
+  Hello, current count isss {counter}
   <button onClick={()=> dispatch(increment())}>+</button>
   <button onClick={()=> dispatch(decrement())}>-</button>
     </div>
